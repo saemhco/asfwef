@@ -1,0 +1,194 @@
+body {
+  background-color: #fff;
+}
+
+/*container principal */
+body .ms-site-container {
+  margin-top: 100px;
+  box-shadow: 0 0px 0px rgb(255, 255, 255);
+  width: 100%;
+}
+
+.ms-header {
+  min-height: 60px;
+}
+
+body .ms-site-container-blue {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0%;
+  left: 0%;
+}
+
+.ms-header.ms-header-primary-blue {
+  background-color: #326ab7;
+  color: #ffffff;
+}
+
+.navbar-header img {
+  width: 335px;
+}
+
+/*logo*/
+.ms-header.ms-header-primary {
+  background-color: #ffffff;
+  width: 100%;
+  height: 86px;
+  top: -40px;
+  left: 0%;
+}
+
+/*menu*/
+.ms-navbar-white {
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 0px 0px rgb(187 187 187);
+}
+
+.nav.nav-tabs.nav-tabs-full {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.new-container-site {
+  margin-top: 100px;
+}
+
+/*tamaño footer*/
+.ms-footbar {
+  background-color: #204983;
+  width: 100%;
+}
+
+/*linea abajo balnca*/
+.ms-footbar:before {
+  background-color: #ffffff;
+  box-shadow: 0 0px 0px rgb(255, 255, 255);
+}
+
+/*ultimo footer unca*/
+.ms-footer {
+  background-color: #204983;
+  color:white;
+
+  /*letras rRIBA INEX*/
+}
+
+/*header logo menu*/
+.ms-header {
+  min-height: 40px;
+}
+
+
+
+
+
+.radio label,
+label {
+  color: #e7e7e7;
+}
+.ms-navbar .btn-navbar-menu,
+.ms-lead-navbar .btn-navbar-menu {
+  position: relative;
+}
+@media screen and (max-width: 800px) {
+  .new-container-site {
+    margin-top: 0;
+  }
+  .ms-site-container-blue {
+    display: none;
+  }
+  .ms-footer {
+    background-color: #204983;
+    width: 100%;
+    grid-template-columns: repeat(1, left);
+  }
+}
+.slick-slide {
+  position: relative;
+}
+
+.boton-azul {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.slick-slider {
+  margin: 0;
+}
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.slick-prev:before, .slick-next:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  transform: rotate(-45deg);
+}
+
+.slick-next:before {
+  transform: rotate(135deg);
+}
+
+/* Estilo de la posición de los botones 
+.slick-prev {
+  left: 20px;
+}
+
+
+.slick-next {
+  right: 20px;
+}
+*/
+
+
+
+
+.ms-paper>.row .ms-paper-menu-left-container .ms-paper-menu-left .ms-paper-menu-title {
+    margin: 0;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 17px;
+    font-size: 1.7rem;
+    background-color: #326ab7;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.card.card-primary .card-header, .card.card-primary .card-footer {
+  background-color: #326ab7;
+  color: #f5f5f5;
+}
+
+.tp-bullets.preview2 {
+  height: 90px;
+}
+
+.ms-header-white+.ms-navbar-primary .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-megamenu>li, .ms-header-primary+.ms-navbar-white .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-megamenu>li{
+  background-color:#326ab7;
+}
+
+
+.element.style{
+  height: 60px;
+}

@@ -1,0 +1,9 @@
+.d-bloc-and-hidden {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .d-bloc-and-hidden {
+        display: hidden;
+    }
+}

@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule .* - [F]
+RewriteCond %{HTTP_HOST} ^unca.edu.pe [NC]
+RewriteRule ^(.*)$ http://www.unca.edu.pe/$1 [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^$ public/     [L]
+RewriteRule (.*) public/$1 [L]
+</IfModule>

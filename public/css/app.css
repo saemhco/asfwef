@@ -1,0 +1,45 @@
+.slider-main-img {
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+.slider-main-overlay {
+  
+  position: absolute;
+  height: 35vh;
+  width: 100%;
+}
+.slider-main-relative {
+  z-index: 99;
+  position: relative;
+}
+.slider-main-h1 {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.02em rgb(59, 57, 57);
+}
+.slider-main-p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.slider-main-padding{
+    padding:100px
+}
+
+@media screen and (max-width: 767px) {
+  .slider-main-img {
+    background-size: auto;
+  }
+  .ms-site-container-arcjas {
+  height: 200px;
+  }
+  .slider-main-padding {
+    padding: 50px;
+  }
+}

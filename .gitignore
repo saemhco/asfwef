@@ -1,0 +1,10 @@
+.phalcon
+/docs/
+/cache/
+/config/development/
+/app/config/config.ini
+/public/adminpanel/archivos/
+/public/adminpanel/imagenes/*
+/public/googlefea14ec7abf5db1e.html
+/public/robots
+googlefea14ec7abf5db1e.html

@@ -1,0 +1,144 @@
+:root {
+  --primary: #416cdc;
+  --secondary: #2858d4;
+  --secondary-hover: #2a74c4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fdfdfd;
+  padding: 0;
+}
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--secondary-hover);
+}
+b {
+  color: grey;
+}
+p {
+  font-size: 12px;
+}
+.caption {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.btn {
+  box-shadow: 1px 3px 10px grey;
+}
+.btn-primary {
+  background: var(--primary);
+  border: 0;
+}
+.btn-primary:hover {
+  background: var(--secondary-hover) !important;
+  box-shadow: 2px 2px 10 grey;
+}
+.btn-primary:active {
+  background: var(--secondary-hover) !important;
+  box-shadow: 2px 2px 10 grey;
+}
+.btn-primary:focus {
+  background: var(--secondary-hover) !important;
+  box-shadow: none !important;
+  outline: none;
+}
+.form-control::placeholder {
+  font-size: 12px;
+}
+.form-control {
+  font-size: 12px;
+  border-radius: 5px;
+  background: #fbfbfb52;
+}
+.form-control:hover {
+  border: 1px solid var(--primary);
+}
+.form-control:focus {
+  background: #fbfbfb;
+  border: 1.5px solid var(--primary);
+  box-shadow: none;
+}
+
+.form-label {
+  font-size: 13px;
+}
+.toggle-password {
+  cursor: pointer;
+}
+.text-danger {
+  font-size: 12px;
+}
+#login-form {
+  width: 300px;
+}
+select.form-control {
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  accent-color: var(--secondary);
+}
+.carousel-control-next:hover {
+  background-color: rgba(128, 128, 128, 0.281);
+}
+.carousel-control-prev:hover {
+  background-color: rgba(128, 128, 128, 0.281);
+}
+.va-middle {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.vh-95 {
+  height: 95vh;
+}
+.vh-80 {
+  height: 80vh;
+}
+.login-content {
+  height: 60vh;
+  width: 100%;
+}
+.btn-circle {
+  width: 23px;
+  height: 23px;
+  padding: 4px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.toggle-password:hover {
+  transition: 1s;
+  color: var(--primary);
+}
+.recovery>a {
+  color: var(--primary);
+  font-size: 12px;
+}
+.recovery>a:hover {
+  color: var(--secondary-hover)!important;
+}
